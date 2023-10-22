@@ -1,0 +1,80 @@
+<html>
+<head> 
+<title> Comprehensive Analysis Of Social Media </title>
+  <style>
+body {
+        background-image: url('projectimage.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+}
+h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+      color: rgb(51, 5, 53);             
+      background-color: rgb(255, 0, 0);
+}
+.top-bar {
+  background-color: #28bedc; 
+  color: #fff; 
+  text-align: center;
+  padding: 10px 0;
+}
+.button {
+  background-color: #28bedc;
+  color: #fff; 
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #28bedc;
+} 
+  </style>
+</head>
+<body>
+<div class="top-bar">
+  <button class="button" onclick="scrollToReport()">Report</button>
+  <button class="button" onclick="scrollToDashboard()">Dashboard</button>
+  <button class="button" onclick="scrollToStory()">Story</button>
+</div>
+<h1> NM PROJECT-DATA ANALYTICS </h1>
+<h1> Dissecting The Digital Landscape </h1>
+<h1>A Comprehensive Analysis Of Social Media </h1>
+
+<div id="report">
+<h2> IBM COGNOS REPORT </h2>
+<br>
+<iframe src="https://ap1.ca.analytics.ibm.com/bi/?pathRef=.my_folders%2Fsocial%2Bmedia%2Bfinal%2Breport&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=run&amp;format=HTML&amp;prompt=false" width="1000" height="1000" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+</div>
+
+<div id="dashboard">
+<h2> IBM COGNOS DASHBOARD </h2>
+<br>
+<iframe src="https://ap1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2Fsocial%2Bmedia%2Bdashboard&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model0000018b42fad2e3_00000002" width="1000" height="1000" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+</div>
+
+<div id="story">
+<h2> IBM COGNOS STORY </h2>
+<br>
+<iframe src="https://ap1.ca.analytics.ibm.com/bi/?perspective=story&amp;pathRef=.my_folders%2Fsocial%2Bmedia%2Bstory&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;sceneId=-1&amp;sceneTime=0" width="1000" height="1000" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+</div>
+
+<script>
+// JavaScript for smooth scrolling to the sections
+function scrollToReport() {
+    document.getElementById("report").scrollIntoView({ behavior: "smooth" });
+  }
+  
+function scrollToDashboard() {
+  document.getElementById("dashboard").scrollIntoView({ behavior: "smooth" });
+}
+
+function scrollToStory() {
+  document.getElementById("story").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+<h3> DONE BY <br> TEAM LEADER: PAVITHRA.S.R
+<br> TEAM MEMBERS: ROSHINI, SHARMATHI, VAISHNAVI </h3>
+</body>
+</html>
